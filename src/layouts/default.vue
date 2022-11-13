@@ -26,14 +26,16 @@ import Social from "~/components/social.vue";
           </div>
           <div class="w-full">
             <div class="border-b border-stone-800 text-right px-6 py-3">
-              <div class="text-xl m flex items-center justify-between">
-                <div>
+              <div
+                class="text-xl m flex flex-col md:flex-row items-center justify-between"
+              >
+                <div class="order-1 sm:order-0">
                   <span class="text-xs align-middle">Режим работы:</span>
                   <span class="text-base ml-2 align-middle">24/7</span>
                 </div>
-                <div class="flex items-center">
-                  <div>
-                    <span class="text-base text-stone-400 m">+7 (4812) </span>
+                <div class="order-0 sm:order-1 flex items-center">
+                  <div class="whitespace-nowrap">
+                    <span class="text-base text-stone-400">+7 (4812) </span>
                     <span class="m">63-04-49</span>
                   </div>
                   <a href="https://ok.ru/profile/569456283244" target="_blank">
